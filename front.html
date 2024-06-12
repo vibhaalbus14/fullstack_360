@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>360 form: faculty performance appraisal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="C:\Users\VASU\Desktop\fullstack_360form\image.png">
+        <h4>
+            <span id="clg_name"> DAYANANDA SAGAR COLLEGE OF ENGINEERING<br></span>
+            An Autonomous Institute affiliated to Visvesvaraya Technological University (VTU),<br>
+            Approved by AICTE and UGC, Accredited by NAAC with 'A' grade <br>
+            Eligible UG Courses are accredited by NBA, ISO 9001-2015 Certified Institution <br>
+
+        </h4>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+   
+    <div id="one">
+        <h2 id="main_head">Performance Appraisal Form</h2>
+        <table border="black" id="table1" width="3px">
+            <tr>
+                <td colspan="3">Employee Code: <input type="text"></td>
+                 
+            </tr>
+            <tr>
+                <td>Name in Full: <input type="text"></td>
+                <td colspan="2">Designation: <input type="text"></td>
+            </tr>
+            <tr>
+                <td>College / Institute:<input type="text" value="DSCE" disabled> </td>
+                <td colspan="2">Campus: <input type="text" value="Kumarswamy layout ( Campus 1)" disabled></td>
+            </tr>
+            <tr>
+                <td colspan="3">Department:
+                    <input type="text" disabled value="Information Science and Engineering">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Joining date at DSCE: <input type="date"></td>
+
+            </tr>
+            <tr>
+                <td colspan="3">Period of Assessment:<input type="text"> </td>
+            </tr>
+        </table>
+    </div>
+    <!-------------------------------------------------------------------->
+    <div class="instructions">
+            <header>I n s t r u c t i o n s</header>    
+            <main>
+                    <ol>
+                        <li>Faculty member should enter their self-evaluation scores for all the assessment parameters of every assessment head as per the specific instructions. Enter total of every assessment head in column ‘A’ of FPMI table. </li>
+                        <li>Completed appraisal form along with necessary proofs should be submitted to the HoD.</li>
+                        <li>Head of the department shall verify scores of every assessment parameter.  Enter his/her score of every assessment head in column ‘B’ of FPMI table</li>
+                        <li>The external evaluator will do the assessment and shall complete Column ‘C’ of  FPMI table </li>
+                        <li>The Head of the department after complete evaluation shall submit the report duly completed in all respect, to the Principal for final review.</li>
+                    </ol>
+                    <h3 id="red_high">Mandatory Eligibility criteria for Promotion / Increments </h3>
+                    <ol>
+                        <li>2 Research paper publications in Scopus or Web of Science indexed journal during the assessment period </li>
+                        <li>At least ONE FDP per semester (minimum 5 days duration) conducted by IITs / NITs and premium institutions (NIRF Ranked Institutions 1-100). </li>
+                        <li>Faculty members should ensure a minimum of 50% marks in at least 03 assessment heads.</li>
+                    </ol>
+                </main>
+            </div>
+    <!-------------------------page 2---------------------------------------------------->
+    <center><h3>FACULTY PERFORMANCE MEASURING INDEX (FPMI)</h3></center>
+    <center><table border="2" color="black" id="table2" width="80%">
+        <form>
+        <tr>
+        <th>Assessment Head: Optimum Marks</th>
+        <th>Maximum Marks</th>
+        <th>Self-evaluation Score(A)</th>
+        <th>Evaluation by  HoD(B)</th>
+        <th>Evaluation by External Audit Member(C)</th>
+        </tr>
+        <tr>
+            <td>Teaching Learning Process (TLP)</td>
+        
+            <td>80</td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+        </tr>
+        <tr>
+            <td>Professional Development and Research Contribution  (PDRC)</td>
+            <td>90</td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+        </tr>
+        <tr>
+            <td>Contribution at Departmental level (CDL)</td>
+            <td>50</td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+        </tr>
+        <tr>
+            <td>Contribution at Institutional level (CIL)</td>
+            <td>30</td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+        </tr>
+        <tr>
+            <td>Interaction with the Outside World (IOW) / External Interface (EI)</td>
+            <td>50</td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+            <td><input type="number" max="100"></td>
+        </tr>
+        <tr>
+            <td>Total </td>
+            <td>300</td>
+            <td><input type="number" name="resA" id="resA" disabled></td>
+            <td><input type="number" name="resB" id="resB" disabled></td>
+            <td><input type="number" name="resC" id="resC" disabled></td>
+        </tr>
+    </form>
+    </table>
+
+    <table id="table3">
+        <form>
+            <tr>
+                <td>Signature Name of the Faculty Member</td>
+                <td><input type="text" name="sig_fac_mem"></td>
+                <td>Signature Name of the HoD </td>
+                <td><input type="text" name="sig_fac_mem"></td>
+            </tr>
+            <tr>
+                <td>Signature Name of the external Evaluator</td>
+                <td><input type="text" name="sig_fac_mem"></td>
+                <td>Signature Name of the Principal </td>
+                <td><input type="text" name="sig_fac_mem"></td>
+            </tr>
+        </form>
+    </table></center>
+
+    <!----------------------page 3,4,5---------------------------------->
+    <h3 id="head_tlp">1.Teaching Learning Process (TLP)</h3>
+    <table border="3" color="black" name="table4" id="table4">
+        <form>
+            <tr>
+                <th id="pink">
+                        1.1
+                </th>
+                <th colspan="4" id="pink">Teaching Learning Activities</th>
+            </tr>
+            <tr id="pink">
+                <td>Sr. No</td>
+                <td>Parameter</td>
+                <td>Self-Evaluation</td>
+                <td>Evaluation by HOD</td>
+                <td>Evaluation by External Audit Member</td>
+            </tr>
+            <tr>
+                <td id="pink">1.1.1</td>
+                <td><ol>Lectures taken as percentage of lectures allocated as per academic calendar<span id="red"> (100% compliance = 10 points)</span>
+                   <li>Total number of lectures allocated: 40</li> 
+                   <li>Total Number of lectures taken:   40</li>
+                   <li>SEMESTER No.:6</li>
+                   <li>number of lectures allocated: 40</li> 
+                   <li>Total Number of lectures taken:   40</li>
+                   <li>Makeup lecturers may be counted as against any leave</li>
+                </ol></td>
+                <td>10</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td id="pink">1.1.2</td>
+                <td><ol>Tutorials, practical, contact hours undertaken as percentage of those actual allocated as per academic calendar<span id="red"> (100% compliance = 10 points)</span>
+                   <li>SEMESTER No.:7 </li> 
+                   <li>Total number of tutorials allocated: 40</li> 
+                   <li>Total Number of tutorials taken:   40</li>
+                   <li>SEMESTER No.:6</li>
+                   <li>number of tutorials allocated: 40</li> 
+                   <li>Total Number of tutorials taken:   40</li>
+                   <li>Remedial lecturers may be counted as against any leave</li>
+                </ol></td>
+                <td>10</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td id="pink">1.1.3</td>
+                <td>Extra Lectures, Remedial Lectures/ Practical or other teaching duties in excess of AICTE/DSCE norms per week for entire semester or proportional otherwise<span id="red"> (2 hour excess per week = 4 points for each semester)</span><span id="green"> (Verification for 1.1.1 to 1.1.3: Official attendance record)</span></td>
+                <td>4+4</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <!------------------page 4---------------------------->
+            <tr>
+                <td id="pink">1.1.4</td>
+                <td>Semester End Examination duties (Question paper setting, evaluation of answer scripts etc.) as per duties allotted <span id="red">(100% compliance = 4 points/sem)</span></td>
+                <td>4+4</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td id="pink">1.1.5</td>
+                <td>Internal examination/Evaluation duties for internal/ continuous assessment work as allotted<span id="red">(100% compliance = 3 points/Sem)</span> 
+                    <span id="green">(Verification for 1.1.4 to 1.1.5 :Official circulars)</span>
+                    </td>
+                <td>3+3</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td id="pink">1.1.2</td>
+                <td><ul>Use of Innovative teaching – learning methodologies;
+                   <li>Use of Information and Communications Technology (ICT); or any animation software, </li> 
+                   <li>Updated subject content and course improvement</li> 
+                   <li>Subject material sharing with the students.</li>
+                   <li>Inviting experts from other Organizations</li>
+                   <span id="red">(2  points for each activity for all assigned subjects in both the semesters)</span>
+                   <span id="green">(Verification for 1.1.6: Course file)</span>
+                </ul></td>
+                <td><ol>
+                    <li>2+2</li>
+                    <li>2+2</li>
+                    <li>2+2</li>
+                    <li>2</li>
+                </ol></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr id="pink">
+                <th>1.2</th>
+                <th>Students’  centric  parameters</th>
+                <th>Self-Evaluation</th>
+                <th>Evaluation by HOD</th>
+                <th>Evaluation by External Audit Member</th>
+            </tr>
+            <tr >
+                <td rowspan="2" id="pink">1.2.1</td>
+                <td>
+                    <ol>
+                        Attendance of Students above 85% <span id="red">(5 marks for each semester) </span><br>
+                        <b>SEMESTER No.: 7</b>
+                        <li>Theory 1: DBMS-101 students</li>
+                        <li>2. Practical 1/Tutorial 1: DBMS lab with miniproject – 68 students</li>
+                    </ol>
+                </td>
+                <td>5</td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                
+            </tr><tr>
+            <td><ol>
+                <b>SEMESTER No.: 6</b>
+                <li>Theory 1: Introduction to Java – 69 students</li>
+                <li>Practical 1/Tutorial 1: Application development using Java lab</li>
+                <li>Practical 2/ Tutorial 2: Python Programming lab</li>
+                <span id="red">* Average of the student’s attendance in the entire Theory/Practical work load assigned during the entire academic year.</span>
+                <span id="green">(Verification 1.3.1 : Official attendance record)</span>
+            </ol></td>
+            <td>5</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td rowspan="3"id="pink">1.2.2</td>
+            <td>
+                <ol>
+                    Student feedback (TH/PR) <span id="red">(5 marks for each semester)</span><br>
+                    <b>SEMESTER No.: 7</b>
+                    <li>Theory 1: DBMS-101 students</li>
+                    <li>Practical 1/Tutorial 1: DBMS lab with miniproject </li>
+                </ol>
+            </td>
+            <td>5</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr><tr>
+        <td><ol>
+            <b>SEMESTER No.: 6</b>
+            <li>Theory 1: Introduction to Java </li>
+            <li>Practical 1/Tutorial 1: Application development using Java lab</li>
+            <li>Practical 2/ Tutorial 2: Python Programming lab</li>
+            
+        </ol></td>
+        <td>5</td>
+        <td><input type="number" minlength="0" maxlength="10"></td>
+        <td><input type="number" minlength="0" maxlength="10"></td>
+        </tr>
+        <tr>
+        <td><span id="red">
+            * Score proportional to average of percentage of “Student’s Feedback” obtained for all assigned theory and practical Subjects in both the Semester.</span>
+            <span id="green">(Verification 1.3.2 : Official feedback record/report)</span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td rowspan="3"id="pink">1.2.3</td>
+            <td>
+                <ol>
+                    
+                    <b>SEMESTER No.: 7</b>
+                    <li>Theory 1: DBMS-101 students</li>
+                    <li>Practical 1/Tutorial 1: DBMS lab with miniproject </li>
+                </ol>
+            </td>
+            <td>5</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr><tr>
+        <td><ol>
+            <b>SEMESTER No.: 6</b>
+            <li>Theory 1: Introduction to Java </li>
+            <li>Practical 1/Tutorial 1: Application development using Java lab</li>
+            <li>Practical 2/ Tutorial 2: Python Programming lab</li>
+            
+        </ol></td>
+        <td>Awaiting Results</td>
+        <td><input type="number" minlength="0" maxlength="10"></td>
+        <td><input type="number" minlength="0" maxlength="10"></td>
+        </tr>
+        <tr>
+        <td><span id="red">
+            * More than average of previous three years results in the respective subject/practical – ‘10’ points,<br> If the results are less by 10% compared to the average of three years - ‘0’ points and in between give proportional points.  </span>
+            <br><span id="green">(Verification 1.3.3 : Official result)</span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        </form>
+    </table>
+
+<!-----------------page 6------------------------------------------------>
+<h3 id="head_pdrc">2.Professional Development and Research Contribution (PDRC)</h3>
+<table border="3" color="black" name="table5" id="table5">
+    <form>
+        
+        <tr id="pink">
+            <td>2.1</td>
+            <td>Professional Development</td>
+            <td>Self-Evaluation</td>
+            <td>Evaluation by HOD</td>
+            <td>Evaluation by External Audit Member</td>
+        </tr>
+        <tr>
+            <td id="pink">2.1.1</td>
+            
+            <td><ol>
+                <li>Qualification improvement</li>
+                <li>(Ph. D / Post Doctorate – <span id="red">10 points</span>)</li>
+                <li>(Ph. D registered – <span id="red">4 points</span>) and  for every progress<br> report submission (– <span id="red">1 points</span> )</li>
+            </ol></td>
+            <td>9</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr>
+        <tr>
+            <td id="pink">2.1.2</td>
+            <td>Acquiring status of Certified trainer for skill development courses from reputed organization.<br><span id="red"> (02 points each) (Max: 4 points)</span></td>
+            <td>-</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr>
+        <tr>
+            <td id="pink">2.1.3</td>
+            <td>Certification of International / National repute from reputed organization   (e. g. EdX , MOOC from some best central universities /IITs/ NITs/ NPTEL etc.)<br><span id="red">(02 points each) (Max: 4 points)</span> </td>
+            <td>-</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr>
+        <tr>
+            <td id="pink">2.1.4</td>
+            <td>Awards/ Recognition/ Any other achievement through professional bodies of National/International repute (e.g. Best Teacher, Young Scientist award given by ISTE).<br><span id="red"> (02 points each)  (Max: 4 points)</span>
+                <br><span id="green">(Verification for 2.1 : Certificate/letter/report)</span>
+                </td>
+            <td>-</td>
+            <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            
+        </tr>
+    </form>
+    </table>
+
+<table border="3" color="black" name="table6" id="table6">
+        <form>
+            
+            <tr id="pink">
+                <td>2.2</td>
+                <td>Research Achievements (RA)</td>
+                <td>Self-Evaluation</td>
+                <td>Evaluation by HOD</td>
+                <td>Evaluation by External Audit Member</td>
+            </tr>
+            <tr><td id="pink">2.2.1</td>
+            <td><ol>
+                <li><b>Research Publication (journals)</b></li>
+                <li>Number of articles in refereed International Journals</li>
+                 <li><span id="red">(For 2 publication:  Scopus indexed -5 points, Web of Science indexed – 3 points and UGC care list – 2 points)
+                    H-index> 5: 2 points, Citation.>10: 2 points</span></li>
+            </ol></td>
+            <td>Scopus – 5<br>
+                Citations – 2<br>
+                UGC care list – 2<br>
+                </td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            <tr ><td id="pink">2.2.2</td>
+            <td><ol>
+                <li><b>Full paper publication in Conference Proceedings</b></li>
+                
+                 <li><span id="red">(For publication in International Conference Proceedings- 3 points, and National Conference Proceedings – 2 points) (Egs. Springer / Elesevier/ IEEE and ACM etc.)</span></li>
+            </ol></td>
+            <td>
+                </td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+                <td><input type="number" minlength="0" maxlength="10"></td>
+            </tr>
+            </form>
+            </table>
+</body>
+
+</html>
