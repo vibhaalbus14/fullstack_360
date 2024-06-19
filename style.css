@@ -85,6 +85,9 @@ input {
 #red{
 color:red;
 }
+.red1{
+    color: red;
+}
 
 #green{
     color:green;
@@ -109,4 +112,26 @@ th, td {
     text-decoration: underline;
     padding-top: 5px;
     padding-bottom:5px;
+}
+.txal{
+    text-align: center;
+}
+.pa{
+    padding:20px;
+}
+.co{
+    column-span: 3;
+}
+.hh3{
+    text-decoration:underline;
+    text-align: center;
+    padding: 20px;
+}
+table{
+    margin: auto;
+}
+.para{
+    font-size: 20px;
+    padding:20px;
+    color: black;
 }
